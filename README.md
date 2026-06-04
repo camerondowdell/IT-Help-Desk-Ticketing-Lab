@@ -51,7 +51,7 @@ This lab directly mirrors daily workflows for Help Desk Analysts, SOC Analysts, 
 ---
 
 ### Phase 3.1 — Install XAMPP (Web Server Stack)
-
+(3.1 project.png) 
 **Actions Taken:**
 1. Downloaded XAMPP Windows installer from apachefriends.org
 2. Ran installer — selected only **Apache**, **MySQL**, and **PHP**; unchecked FileZilla, Mercury, and Tomcat
