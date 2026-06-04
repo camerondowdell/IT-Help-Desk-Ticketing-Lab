@@ -63,7 +63,7 @@ This lab directly mirrors daily workflows for Help Desk Analysts, SOC Analysts, 
 
 > **Note on IIS conflict:** If Apache fails to start with a port 80 error, IIS (World Wide Web Publishing Service) is likely occupying the port. Stop and disable it via `services.msc`, then restart Apache in XAMPP.
 
-![XAMPP Control Panel](3_1_project.png)
+![XAMPP Control Panel] (3_1_project.png)
 *XAMPP Control Panel v3.3.0 — Apache running on ports 80 and 443 (PIDs 5488/6772), MySQL running on port 3306 (PID 1224). Control Panel log confirms "Status change detected: running" for both services. XAMPP welcome page confirmed open in browser background (5/23/2026 4:51 PM)*
 
 ---
@@ -81,7 +81,7 @@ This lab directly mirrors daily workflows for Help Desk Analysts, SOC Analysts, 
 
 **Outcome:** `osticket` database created and visible in phpMyAdmin alongside system databases (`information_schema`, `mysql`, `performance_schema`, `phpmyadmin`, `test`). No tables yet — ready for osTicket installer to populate.
 
-![phpMyAdmin osticket database](3_2_phpadmin.png)
+![phpMyAdmin osticket database] (3_2_phpadmin.png)
 *phpMyAdmin showing the osticket database created on Server 127.0.0.1 — empty database (no tables yet), ready for osTicket installer. Left panel confirms osticket listed alongside system databases (5/23/2026 6:17 PM)*
 
 **osTicket Installation:**
@@ -146,10 +146,10 @@ Action section detailed all remediations. Closing ticket.
 
 **Outcome:** Full ticket lifecycle completed — from submission to investigation to structured closure. Ticket #188574 confirmed closed with reply posted successfully.
 
-![Ticket Reply - Account Lockout](_2026-05-25_185142.png)
+![Ticket Reply - Account Lockout] (3_3_prjectpng)
 *osTicket Ticket #188574 — Admin User posted reply to John Doe's account lockout ticket at 11:50 PM: "Hi John, I've located your account and reset your credentials. Please check your email for a temporary password." Reply panel shows From: helpdesk@example.com, Recipients: johndoe@email.com. Post Reply and Post Internal Note tabs visible (5/25/2026)*
 
-![Tickets Dashboard](_2026-05-25_185226.png)
+![Tickets Dashboard](3.4.png)
 *osTicket Staff Panel > Tickets dashboard — success banners confirm "Ticket #188574: Reply posted successfully." Open queue shows Ticket #117180 "osTicket Installed!" from osTicket Team. Admin logged in as Welcome, Admin (5/25/2026)*
 
 ---
